@@ -30,7 +30,7 @@ namespace Homework16
         {
             Console.WriteLine("\nСделайте выбор, напишите да или нет");
             List<string> votingList = new List<string> { };
-            votingList.Add(Console.ReadLine());
+            votingList.Add(Console.ReadLine());//here should be something like try catch or else - inрut can be not string
             if (votingList.Contains("Да"))
             {
                 Console.WriteLine("Голосование окончено, решение сделано");
@@ -42,3 +42,4 @@ namespace Homework16
         }
     }
 }
+//checked
